@@ -1,0 +1,39 @@
+# .dockerignore
+# Solo para archivos NO SENSIBLES que no quieres copiar
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# Logs y temporales
+*.log
+logs/
+tmp/
+temp/
+
+# IDE y desarrollo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Control de versiones
+.git/
+.gitignore
+
+# Documentación
+README.md
+LICENSE
+
+# Archivos grandes innecesarios
+*.pt
+*.pth
+*.weights
