@@ -22,7 +22,7 @@ Deploy_YOLO_Docker/
 ├── models/           # Pre-trained YOLO models (.onnx)
 ├── src/              # Python source code (Inference scripts)
 ├── Dockerfile        # Container definition
-├── pyproject.toml  # Python dependencies
+├── pyproject.toml    # Python dependencies
 └── README.md         # Documentation
 ```
 
