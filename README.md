@@ -6,13 +6,12 @@
 
 ## 📝 Overview
 
-This project provides a robust, containerized environment to deploy **YOLO** (You Only Look Once) models for real-time object detection. By leveraging **Docker** and **ONNX Runtime**, it ensures a seamless "Build Once, Run Anywhere" workflow, eliminating the common "it works on my machine" issues in Computer Vision pipelines.
+This project provides a robust, containerized environment to deploy **YOLO** (You Only Look Once) models for real-time object detection. By leveraging **Docker** and **ONNX Runtime**, it ensures a seamless "Build Once, Run Anywhere" workflow, eliminating the common "it works on my machine" issues in Computer Vision pipelines. This repository complements the [YOLO_Detection_App](https://github.com/CarlosM1024/YOLO_Detection_App) repository to perform the detection task.
 
 ## ✨ Key Features
 
 * **Containerized Inference:** Isolated environment with all CV2 and ONNX dependencies pre-configured.
 * **Production Ready:** Optimized for high-performance inference using the `.onnx` format.
-* **Orchestration Friendly:** Full support for `docker-compose` for multi-service scaling.
 * **Flexible Configuration:** Dynamic model loading via environment variables.
 
 ## 📁 Directory Structure
